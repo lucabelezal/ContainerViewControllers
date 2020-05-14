@@ -14,6 +14,8 @@
 		B317DCF1243C0F250069A75C /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B317DCF0243C0F250069A75C /* MasterViewController.swift */; };
 		B317DCF3243C0F400069A75C /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B317DCF2243C0F400069A75C /* SummaryViewController.swift */; };
 		B317DCF5243C0F470069A75C /* SessionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B317DCF4243C0F470069A75C /* SessionsViewController.swift */; };
+		B37B0549246DF80500EE7EF9 /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37B0548246DF80500EE7EF9 /* ParentViewController.swift */; };
+		B37B054B246DF82200EE7EF9 /* ChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37B054A246DF82200EE7EF9 /* ChildViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		B317DCF0243C0F250069A75C /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		B317DCF2243C0F400069A75C /* SummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
 		B317DCF4243C0F470069A75C /* SessionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionsViewController.swift; sourceTree = "<group>"; };
+		B37B0548246DF80500EE7EF9 /* ParentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentViewController.swift; sourceTree = "<group>"; };
+		B37B054A246DF82200EE7EF9 /* ChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 		B317DCDB243C0B110069A75C /* ContainerViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				B37B0547246DF7F500EE7EF9 /* OtherExample */,
 				B317DCDC243C0B110069A75C /* AppDelegate.swift */,
 				B317DCDE243C0B110069A75C /* SceneDelegate.swift */,
 				B317DCE5243C0B140069A75C /* Assets.xcassets */,
@@ -68,6 +73,15 @@
 				B317DCF4243C0F470069A75C /* SessionsViewController.swift */,
 			);
 			path = ContainerViewControllers;
+			sourceTree = "<group>";
+		};
+		B37B0547246DF7F500EE7EF9 /* OtherExample */ = {
+			isa = PBXGroup;
+			children = (
+				B37B0548246DF80500EE7EF9 /* ParentViewController.swift */,
+				B37B054A246DF82200EE7EF9 /* ChildViewController.swift */,
+			);
+			path = OtherExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,8 +154,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B37B054B246DF82200EE7EF9 /* ChildViewController.swift in Sources */,
 				B317DCF5243C0F470069A75C /* SessionsViewController.swift in Sources */,
 				B317DCDD243C0B110069A75C /* AppDelegate.swift in Sources */,
+				B37B0549246DF80500EE7EF9 /* ParentViewController.swift in Sources */,
 				B317DCF3243C0F400069A75C /* SummaryViewController.swift in Sources */,
 				B317DCDF243C0B110069A75C /* SceneDelegate.swift in Sources */,
 				B317DCF1243C0F250069A75C /* MasterViewController.swift in Sources */,
